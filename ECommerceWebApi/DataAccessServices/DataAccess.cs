@@ -128,7 +128,7 @@ namespace ECommerceWebApi.DataAccessServices
 
         public Product GetProductById(int id)
         {
-            Product product = null;
+            Product product = null; 
             using (SqlConnection sqlConnection = new(_connectionstring))
             {
                 SqlCommand sqlCommand=sqlConnection.CreateCommand();
