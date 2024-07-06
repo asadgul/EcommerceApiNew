@@ -17,11 +17,11 @@ SET IDENTITY_INSERT [dbo].[ProductCategories] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Offers] ON 
 
-INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (1, N'diwali dhamaka', 25)
-INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (2, N'christmas sale', 15)
-INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (3, N'ausgust special', 5)
+INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (1, N'Eid Ul Fitr', 25)
+INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (2, N'Eid Ul Azha', 15)
+INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (3, N'Rabi Ul Awal', 5)
 INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (4, N'crazy shopping sale', 40)
-INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (5, N'holi sale', 10)
+INSERT [dbo].[Offers] ([OfferId], [Title], [Discount]) VALUES (5, N'christmas', 10)
 SET IDENTITY_INSERT [dbo].[Offers] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Products] ON 
@@ -46,17 +46,34 @@ INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [Off
 INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (18, N'TEKAVO Multipurpose Computer desk office table with keyboard tray for home office, engineered wood finish Study writing computer laptop table desk 118x48x87cm (Jungle Wood /Brown & Black)', N'Made up of powder coated iron metal legs and thick particle board guarantees sturdiness and stability. It features Three shelves to keep your books, study materials, laptops, etc and 1 Shelves to keep CPU conveniently in one place. Monitor Riser and Keyboard Tray. The natural wood grain color variation design gives this writing desk an industrial style. Product Size: 120 cm length x 60 cm Width x 76 cm Height. Compact design for small and medium size rooms. Use Case: Minimalistic style makes this desk perfect for any work space as study table, Gaming Desk, computer desk, Desktop Table, home office desk, Laptop table, etc. Basic Assembly required. DIY (Do-It-Yourself) assembly instructions and assembly Video provided with the product. Our Team also can help you over video call to fix the trouble. Care: Do not slight or move furniture without dismantling, and clean using dry cloth only. Customization in few elements can be done on request. T&C apply.', 3, 1, 9000, 500, N'')
 INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (19, N'TEKAVO L Shape Corner Desk Multi-Utility Office Table Computer Desk for Home Office Engineered Wood Finish Writing Study Computer Laptop Desk Table Rustic Brown/Black – (130x48x75 cm)', N'LARGE SPACE & STORAGE – TEKAVO - L shaped with big desk panel and storage shelves can offer plenty of space for your keyboard and mouse when working, study, gaming, doing the industrial work in workstation, workbench and other home office activities. The dimension of the desk is: 130 cm (L) * 48 cm (W) * 75 cm (H). Size of the 2-tier open shelves is: Bottom shelf: 32 cm (L) * 48 cm (W), * 49.5 cm (H) which is high enough to put your computer host. Top shelf: 17 cm High. STURDY X CROSSBAR DESIGN - Sturdy X crossbar will make this corner desk more stability and durability than others desks. HIGH QUALITY & DURABLE - The corner desk is made of the high-quality heavy-duty powder coated steel frame and particle board with scratch-resistant, anti-collision design With the rustic brown and black mixed color design which make your desk looks more fashionable and stylish. EASY TO SELF-ASSEMBLE - This Desk comes with details & illustrated instructions & numbered parts, it’s easy to put it together It is Do It Yourself (DIY) type of product So, you need to assembled it by your own We are always there for assembly guidance and support. NOTE: Product comes in Multiple Packages. Customization in few elements can be done on request. T&C apply.', 3, 1, 13000, 200, N'')
 INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (20, N'Urbain Home Seoul Foldable Multipurpose Study Table, Folding Computer Table for Home & Office, Heavy Duty Work from Home Desk with Keyboard Tray (Dark Wenge)', N'Product Dimensions: Length: 81cm, Width: 46cm, Height: 74cm. This product is 100% made in India. Urbain Home Foldable Study cum Computer Table is durable, elegant and Space Saving making it perfect for any space. The table can be used as study table, laptop table, reading table, kids table, work from home table, office table or in any way you like. Made of high quality Engineered wood and heavy duty steel for durability and high load capacity. Product Color: Dark Wenge| Product Style: Modern | Product Weight: 14 Kgs. Assembly or Installation: This is a pre-assembled product. No Assembly Required.', 3, 2, 3500, 800, N'')
+INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (22, N'Wired 7 Light RGB Mouse', N'Wired 7 Light RGB Mouse - RGB Backlit RGB Mouse Wired Gaming Mouse Play with the Stunning RGB Wired Mouse', 9, 1, 225, 4, N'')
+INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (23, N'Wireless Gaming Mouse', N'【Rechargeable】Wireless Gaming Mouse RGB with adjustable DPI ~ Silent Click, Ultra-thin, LED Wireless Optical Mouse for Laptop, PC, Computer, MacBook, iPad, Smart TV', 9, 1, 695, 3, N'')
+INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (25, N'Premium Gaming Mouse RGB', N'Premium Gaming Mouse RGB with 6 Buttons & 3200dpi Control - Breathing LED Light Optical Mouse with MousePad & Side Buttons for PC, Gaming, Laptop, Pubg, Mobile - By FunBug', 9, 1, 950, 2, N'')
+INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (26, N'Ninja Snow Flake GX6 2.4G', N'Ninja Snow Flake GX6 2.4G Wireless Mouse Rechargeable 6 Keys 3200 DPI Gaming Mouse PC Laptop Mice', 9, 1, 1500, 3, N'')
+INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (27, N'TRENDY BUTTERFLY themeTracksuit', N'TRENDY BUTTERFLY themeTracksuit for girls/women half Sleeves T-Shirt & Trouser T gym wear Tshirt soft and comfortable summer wear track suit round neck comfy fabric Teeshirt for Summer Collection Elegant Trendy Wear', 5, 4, 899, 2, N'')
+INSERT [dbo].[Products] ([ProductId], [Title], [Description], [CategoryId], [OfferId], [Price], [Quantity], [ImageName]) VALUES (28, N'Cotton Jeans pants', N'New Arrival Cotton Jeans pants for Men and Boys All Season Comfortable Pent { MODEL WEAR }
+', 6, 4, 1499, 2, N'')
+GO
+ALTER TABLE [dbo].[Products]  WITH CHECK ADD  CONSTRAINT [FK_Product_Offers] FOREIGN KEY([OfferId])
+REFERENCES [dbo].[Offers] ([OfferId])
+GO
+ALTER TABLE [dbo].[Products] CHECK CONSTRAINT [FK_Product_Offers]
+GO
+ALTER TABLE [dbo].[Products]  WITH CHECK ADD  CONSTRAINT [FK_Product_ProductCategories] FOREIGN KEY([CategoryId])
+REFERENCES [dbo].[ProductCategories] ([CategoryId])
+GO
+ALTER TABLE [dbo].[Products] CHECK CONSTRAINT [FK_Product_ProductCategories]
+GO
 SET IDENTITY_INSERT [dbo].[Products] OFF
 GO
 SET IDENTITY_INSERT [dbo].[PaymentMethods] ON 
 
 INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (1, N'Cash', N'', N'True', N'')
 INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (2, N'Card Payment', N'Bank', N'True', N'')
-INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (3, N'Net Banking', N'SBI', N'True', N'')
-INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (4, N'Net Banking', N'ICICI', N'True', N'')
-INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (5, N'Net Banking', N'Bank of Maharashtra', N'False', N'server down')
-INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (6, N'UPI', N'Google Pay', N'True', N'')
-INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (7, N'UPI', N'Phone Pay', N'True', N'')
-INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (8, N'UPI', N'BHIM Pay', N'True', N'')
+INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (3, N'Net Banking', N'ABL', N'True', N'')
+INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (4, N'Net Banking', N'MCB Islamic', N'True', N'')
+INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (5, N'Net Banking', N'UBL', N'False', N'server down')
+INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (6, N'UPI', N'Easy Paisa', N'PhonePay', N'')
+INSERT [dbo].[PaymentMethods] ([PaymentMethodId], [Type], [Provider], [Available], [Reason]) VALUES (7, N'UPI', N'Jazz Cash', N'PhonePay', N'')
 SET IDENTITY_INSERT [dbo].[PaymentMethods] OFF
 GO
